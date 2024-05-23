@@ -1,1 +1,16 @@
-Hello world!
+Hello world!!!
+
+private static int[][] getTwoSetsOfThreeRandomNumbers(int randomNumberOrigin, int randomNumberBound) {
+        int[] allRandomNumbers = new Random()
+                .ints(randomNumberOrigin, randomNumberBound)
+                .distinct()
+                .limit(6)
+                .toArray();
+
+        int[][] setsOfNumbers = new int[2][3];
+        for (int i = 0; i < 3; i++) {
+            setsOfNumbers[0][i] = allRandomNumbers[i];
+            setsOfNumbers[1][i] = allRandomNumbers[i + 3];
+        }
+        return setsOfNumbers;
+    }
