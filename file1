@@ -14,3 +14,5 @@ private static int[][] getTwoSetsOfThreeRandomNumbers(int randomNumberOrigin, in
         }
         return setsOfNumbers;
     }
+
+another modification

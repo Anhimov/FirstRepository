@@ -1,1 +1,10 @@
 Good bye!!!
+creating a db session
+	open a transaction
+		transfer some data
+	close the transaction	
+close the db session
+
+add some data before reset
+
+some data to reset
