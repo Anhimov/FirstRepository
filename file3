@@ -1,0 +1,11 @@
+Hello from the file of name 3
+Shallow
+Amend test
+test to edit message in a word processor 
+tenzor
+
+int[][] setsOfNumbers = new int[2][3];
+        for (int i = 0; i < 3; i++) {
+            setsOfNumbers[0][i] = allRandomNumbers[i];
+            setsOfNumbers[1][i] = allRandomNumbers[i + 3];
+        }

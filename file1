@@ -1,5 +1,8 @@
 Hello world!!!
 
+line from user1
+another line from user1
+
 private static int[][] getTwoSetsOfThreeRandomNumbers(int randomNumberOrigin, int randomNumberBound) {
         int[] allRandomNumbers = new Random()
                 .ints(randomNumberOrigin, randomNumberBound)
@@ -15,4 +18,8 @@ private static int[][] getTwoSetsOfThreeRandomNumbers(int randomNumberOrigin, in
         return setsOfNumbers;
     }
 
-another modification
+another line from user2
+another line from user2
+
+line from user2
+another line from user2

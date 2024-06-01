@@ -1,0 +1,10 @@
+file master
+remaster
+lomaster
+
+private static void clearConsole() {
+        // This method clears the console by printing a certain number of empty lines
+        for (int i = 0; i < 5; i++) {
+            System.out.println();
+        }
+    }
