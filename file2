@@ -5,7 +5,7 @@ creating a db session
 	close the transaction	
 close the db session
 
-add some data before reset
+add >>> user2 has almost deleted this line <<<
 
 some data to reset
 
